@@ -1,9 +1,10 @@
 # Website
 This file is a Web Site simulation which can show how a university can generate QR codes for a bunch of graduates and verify applicants' certificate using QR cods on them.
 You can use it as following:
-1. Download the whole file to your Desktop.
 
-2. Open your cmd and input the following commands:
+1 Download the whole file to your Desktop.
+
+2 Open your cmd and input the following commands:
 
 cd Desktop
 
