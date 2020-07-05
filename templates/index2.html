@@ -1,0 +1,27 @@
+﻿{% extends "index_logo.html" %}
+{% load static %}
+
+
+{% block zhanshi %}
+
+                <div style="width: 100%;height: 100%;text-align：center;margin: auto;">
+                    <div id="" style="width: 50rem;height: 100%;margin-left: 25rem;margin-top: 6.875rem;">
+                        <div id="" style="width: 23.5rem;float: left;margin-left: 30.5rem;margin-top: 14.25rem;">
+                            {% for foo in name_i %}
+                                <p><img src="{% static 'img/get.jpg' %}" style="width: 5rem;margin-bottom: -0.9375rem;"><i style="margin-bottom: 0.625rem;">{{ foo }} </i></p>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+
+{% endblock %}
+
+{% block xq_js_js %}
+    <script type="text/javascript">
+        $(function () {
+            $('#zs_zs').hide();
+        })
+    </script>
+
+{% endblock %}

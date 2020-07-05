@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+	<head>
+		<meta charset="utf-8">
+        <script src="{% static 'js/jQuery.js' %}" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body style="width: 100%;height: 100%;background: url({% static 'img/1111.jpg' %}) no-repeat;
+				">
+		<div style="width: 100%;height: 100%;text-align：center;margin: auto;">
+    <div id="" style="width: 45rem;height: 100%;margin-left: 21.5rem;margin-top: 5.875rem;">
+        {% for foo in name %}
+            <div id="" style="height: 100%;float: left;margin-right: 0.625rem;font-size: 13px">
+                <p><i>{{ foo }} </i><img src="{% static 'img/pk.png' %}" style="width: 0.9375rem;"></p>
+                    <img src="/static/ewm_img/{{ foo }}.png" style="width: 6.25rem;height: 100%;margin-top: -0.9375rem;">
+            </div>
+        {% endfor %}
+        {% for foo in name %}
+            <div id="" style="height: 100%;float: left;margin-right: 0.625rem;font-size: 13px">
+                <p><i>{{ foo }} </i><img src="{% static 'img/pk.png' %}" style="width: 0.9375rem;"></p>
+                    <img src="/static/ewm_img/{{ foo }}.png" style="width: 6.25rem;height: 100%;margin-top: -0.9375rem;">
+            </div>
+        {% endfor %}
+            {% for foo in name %}
+            <div id="" style="height: 100%;float: left;margin-right: 0.625rem;font-size: 13px">
+                <p><i>{{ foo }} </i><img src="{% static 'img/pk.png' %}" style="width: 0.9375rem;"></p>
+                    <img src="/static/ewm_img/{{ foo }}.png" style="width: 6.25rem;height: 100%;margin-top: -0.9375rem;">
+            </div>
+        {% endfor %}
+            {% for foo in name %}
+            <div id="" style="height: 100%;float: left;margin-right: 0.625rem;font-size: 13px">
+                <p><i>{{ foo }} </i><img src="{% static 'img/pk.png' %}" style="width: 0.9375rem;"></p>
+                    <img src="/static/ewm_img/{{ foo }}.png" style="width: 6.25rem;height: 100%;margin-top: -0.9375rem;">
+            </div>
+        {% endfor %}
+
+
+    </div>
+
+    {% block xq_js %}
+    {% endblock %}
+	</body>
+</html>
+
+
